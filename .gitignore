@@ -1,0 +1,12 @@
+# Only the per-year map folders belong on GitHub.
+# Ignore everything at the root by default...
+/*
+
+# ...then allow back just the year folders and repo metadata.
+!/2025/
+!/2026/
+!/README.md
+!/.gitignore
+
+# Finder junk, at any depth.
+.DS_Store
